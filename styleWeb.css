@@ -132,7 +132,7 @@ padding: 70px;
 }
 
 
-.button_1{
+#button_bombo{
     height: 22%;
     width: 14%;
     border-radius: 100%;
@@ -142,7 +142,7 @@ padding: 70px;
     top: 5.5%;
     left: 7.3%; 
 }
-.button_2{
+#button_crash{
     height: 21%;
     width: 15%;
     border-radius: 100%;
@@ -152,7 +152,7 @@ padding: 70px;
     top: 5.5%;
     left: 79.3%;
 }
-.button_3{
+#button_hit-hat{
     height: 21%;
     width: 14%;
     border-radius: 100%;
@@ -162,7 +162,7 @@ padding: 70px;
     top: 28%;
     left: 72.3%;
 }
-.button_4{
+#button_redoblante{
     height: 24%;
     width: 15%;
     border-radius: 100%;
@@ -173,7 +173,7 @@ padding: 70px;
     left: 13.3%;
 } 
 
-.button_5{
+#button_tom1{
     
     height: 30%;
     width: 20%;
@@ -184,7 +184,7 @@ padding: 70px;
     top: 50.5%;
     left: 19.3%;
 }
-.button_6{
+#button_tom2{
     height: 29%;
     width: 19%;
     border-radius: 100%;
@@ -195,7 +195,7 @@ padding: 70px;
     left: 62.6%;
     
 }
-.button_7{
+#button_tom3{
     height: 29%;
     width: 20%;
     border-radius: 100%;
@@ -205,7 +205,7 @@ padding: 70px;
     top: 15.5%;
     left: 29.6%;
 }
- .button_8{
+ #button_tom4{
     height: 29%;
     width: 19%;
     border-radius: 100%;

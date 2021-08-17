@@ -6,6 +6,7 @@
     <meta name="viewport"content="width=device-width,initial-scale=1,maximum-scale=1" >
     <title>DOMBOOM</title>
     <link rel="stylesheet" href="styleWeb.css">
+
     
 </head>
 <body>
@@ -54,14 +55,23 @@
                 <div class="image">
                       <img src="img/drumkit.png" >
                 <div class="button">
-                   <button class="button_1"></button>
-                   <button class="button_2"></button>
-                   <button class="button_3"></button>
-                   <button class="button_4"></button>
-                   <button class="button_5"></button>
-                   <button class="button_6"></button>
-                   <button class="button_7"></button>
-                   <button class="button_8"></button>
+                   <button data-boton="bombo" id="button_bombo"></button>                
+                   <button id="button_crash"></button>
+                   <button id="button_hit-hat"></button>
+                   <button id="button_redoblante"></button>
+                   <button id="button_tom1"></button>
+                   <button id="button_tom2"></button>
+                   <button id="button_tom3"></button>
+                   <button id="button_tom4"></button>
+                   
+                   <audio data-boton="bombo" id= "button_bombo" src="./audio/bombo.wav"></audio>
+                   <audio src="crash.wav"></audio>
+                   <audio src="hit-hat.wav"></audio>
+                   <audio src="redoblante.wav"></audio>
+                   <audio src="tom1.wav"></audio>
+                   <audio src="tom2.wav"></audio>
+                   <audio src="tom3.wav"></audio>
+                   <audio src="tom4.wav"></audio>
                 </div>
                 </div>
         </div>        
@@ -75,6 +85,7 @@
                 </div>
         </footer>
     </div>
+    <script src="./funtionbuttom.js"></script>
 </body>
 </html> 
 
