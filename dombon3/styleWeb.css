@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+*{
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container{
+    background-color: #01001F;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+/*header*/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-icon_transparent {
+    background-color: rgb(40, 153, 59);
+    border-radius: 33px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 18px 63px auto 90%;
+    max-width: 94px;
+}
+
+.header-icon_transparent img{
+  padding: 2px;
+  margin:3px;
+  padding: 2px;
+    margin: 7px;
+    max-width: 35px;
+}
+
+
+
+.header{  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+}
+
+
+
+.header_logo{
+}
+
+.header_nav{
+    margin-top: 18px;
+    align-content:flex-end;
+    display:flex;
+    margin-left: 200px;
+    
+}
+.header_nav a{
+    
+    text-decoration: none;
+    margin-left: 40px;
+    color: cornsilk;
+    align-items: center;
+}
+
+.header-green{
+color: rgb(11, 139, 69) !important;
+border-right: solid 1px white;
+padding: 20px;S
+  
+}
+
+/*body*/
+.caixa{
+    display: flex;
+
+}
+
+.column{
+    
+    flex-direction: column;
+    text-align: center;
+}
+
+.caixa1{
+
+    color:#F9F8FB; 
+    font-family:'Times New Roman', Times, serif;
+    
+}
+ .caixa2{
+
+    font-size:xx-small;
+    text-align: justify;
+    color:#524d6d;
+    Font-family:"Times New Roman", Times, serif;
+ }
+
+
+
+.image{
+  flex-wrap: wrap;
+    display: flex;
+    position: relative ;
+  
+   
+}
+
+.image img{
+    
+    height: 97%;
+
+   
+}
+.circle_hit{
+padding: 70px;
+}
+
+.circle_hit_transparent{
+    border-radius: 100%;
+    background-color: #0e0d0f;
+    height: 154px;
+    width: 154px;
+    font-size: 26px;
+    font-weight: bolder gray;
+    color: gray;
+}
+
+
+.button_1{
+    height: 22%;
+    width: 14%;
+    border-radius: 100%;
+    background-color: rgb(160, 18, 18);
+    opacity: 80%;
+    position: absolute;
+    top: 5.5%;
+    left: 7.3%; 
+}
+.button_2{
+    height: 21%;
+    width: 15%;
+    border-radius: 100%;
+    background-color: rgb(18, 150, 160);
+    opacity: 80%;
+    position: absolute;
+    top: 5.5%;
+    left: 79.3%;
+}
+.button_3{
+    height: 21%;
+    width: 14%;
+    border-radius: 100%;
+    background-color: rgb(23, 160, 18);
+    opacity: 80%;
+    position: absolute;
+    top: 28%;
+    left: 72.3%;
+}
+.button_4{
+    height: 24%;
+    width: 15%;
+    border-radius: 100%;
+    background-color: rgb(246, 156, 10);
+    opacity: 80%;
+    position: absolute;
+    top: 26.5%;
+    left: 13.3%;
+} 
+
+.button_5{
+    
+    height: 30%;
+    width: 20%;
+    border-radius: 100%;
+    background-color: rgb(228, 10, 191);
+    opacity: 80%;
+    position: absolute;
+    top: 50.5%;
+    left: 19.3%;
+}
+.button_6{
+    height: 29%;
+    width: 19%;
+    border-radius: 100%;
+    background-color: rgb(8, 81, 250);
+    opacity: 80%;
+    position: absolute;
+    top: 51.5%;
+    left: 62.6%;
+    
+}
+.button_7{
+    height: 29%;
+    width: 20%;
+    border-radius: 100%;
+    background-color: rgb(228, 80, 112);
+    opacity: 80%;
+    position: absolute;
+    top: 15.5%;
+    left: 29.6%;
+}
+ .button_8{
+    height: 29%;
+    width: 19%;
+    border-radius: 100%;
+    background-color: rgb(56, 231, 149);
+    opacity: 80%;
+    position: absolute;
+    top: 15%;
+    left: 51.6%;
+ }   
+
+ button:hover{
+     opacity: 30%;
+     transition: 0.5s;
+ }
+
+/*footer*/
+   
+.footer{
+    width: 100%;
+    padding:27px;
+    color: white; 
+    text-align: center;
+    
+} 
+
+.boton_verde{
+  
+    font-size: 20px;
+    background-color: rgb(40, 153, 59);
+    color: rgb(2, 2, 2);
+    border-radius:33px;; 
+    width: 182px;
+    height:53px;
+    margin-top:20px ;
+    border: 0px;
+
+
+}
+.boton_blanco{
+    
+    font-size: 20px;
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+    border-radius:10px; 
+    width: 182px;
+    height:53px;
+    margin-top:20px ;
+    border: 0px;rgb(2, 2, 2);
+    border-radius:33px;; 
+    width: 182px;
+    height:53px;
+    margin-top:20px ;
+    border: 0px;  
+
+}
+
+
+/* pseudoclases */
+
+
+/* jquery */
+/* cambio header mbl*/
