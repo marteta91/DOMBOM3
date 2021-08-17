@@ -1,3 +1,0 @@
-# proyecto Domboom
-
-# DOMBOM3
