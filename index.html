@@ -6,6 +6,7 @@
     <meta name="viewport"content="width=device-width,initial-scale=1,maximum-scale=1" >
     <title>DOMBOOM</title>
     <link rel="stylesheet" href="styleWeb.css">
+
     
 </head>
 <body>
@@ -16,7 +17,7 @@
             <div class="header">   
 
                 <div class="header_logo">
-                    <img src="images/logo.png" alt="imagen del logo">
+                    <img src="./img/logo.png" alt="imagen del logo">
                 </div>
             
                 <nav class="header_nav">
@@ -54,18 +55,28 @@
                 <div class="image">
                       <img src="img/drumkit.png" >
                 <div class="button">
-                   <button class="button_bombo"></button>
-                   <button class="button_crash"></button>
-                   <button class="button_hit-hat"></button>
-                   <button class="button_redoblante"></button>
-                   <button class="button_tom1"></button>
-                   <button class="button_tom2"></button>
-                   <button class="button_tom3"></button>
-                   <button class="button_tom4"></button>
+                   <button data-boton="bombo" onclick="playsound1()" class="button_bombo" value=>bombo</button>></button>                
+                   <button data-boton="hit-hat" onclick="playsound2()" class="button_crash"></button>
+                   <button data-boton="redoblante" data-boton="redoblante"onclick="playsound3()" class="button_hit-hat"></button>
+                   <button data-boton="crash" onclick="playsound4()" class="button_redoblante"></button>
+                   <button data-boton="tom-1" onclick="playsound5()" class="button_tom1"></button>
+                   <button data-boton="tom-2" onclick="playsound6()" class="button_tom2"></button>
+                   <button data-boton="tom-3" onclick="playsound7()" class="button_tom3"></button>
+                   <button data-boton="tom-4" onclick="playsound8()" class="button_tom4"></button>
+                   
+
+                   <audio id="sonido_bombo" data-boton="bombo" src="./audio/bombo.wav"></audio>
+                   <audio id="sonido_crash" data-boton="crash" src="./audio/crash.wav"></audio>
+                   <audio id="sonido_hit-hat" data-boton="hit-hat" src="./audio/hit-hat.wav"></audio>
+                   <audio id="sonido_redoblate"data-boton="redoblante" src="./audio/redoblante.wav"></audio>
+                   <audio id="sonido_tom1" data-boton="tom-1" src="./audio/tom1.wav"></audio>
+                   <audio id="sonido_tom2" data-boton="tom-2" src="./audio/tom2.wav"></audio>
+                   <audio id="sonido_tom3" data-boton="tom-3" src="./audio/tom3.wav"></audio>
+                   <audio id="sonido_tom4" data-boton="tom-4" src="./audio/tom4.wav"></audio>
                 </div>
                 </div>
         </div>        
-        
+     
 
         <footer>
                 <div class="footer">
@@ -75,7 +86,7 @@
                 </div>
         </footer>
     </div>
-    <script src="/funtionbutton.js"></script>
+    <script src="funtionbuttom.js"></script>
 </body>
 </html> 
 

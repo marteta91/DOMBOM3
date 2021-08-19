@@ -30,14 +30,16 @@ header{
     justify-content: flex-end;
     margin: 18px 63px auto 90%;
     max-width: 94px;
+    opacity: 0;
 }
 
 .header-icon_transparent img{
-  padding: 2px;
-  margin:3px;
-  padding: 2px;
+    padding: 2px;
+    margin:3px;
+    padding: 2px;
     margin: 7px;
     max-width: 35px;
+   
 }
 
 
@@ -50,8 +52,7 @@ header{
 
 
 
-.header_logo{
-}
+
 
 .header_nav{
     margin-top: 18px;
@@ -69,10 +70,9 @@ header{
 }
 
 .header-green{
-color: rgb(11, 139, 69) !important;
-border-right: solid 1px white;
-padding: 20px;S
-  
+    color: rgb(11, 139, 69) !important;
+    border-right: solid 1px white;
+    padding: 20px; 
 }
 
 /*body*/
@@ -104,16 +104,19 @@ padding: 20px;S
 
 
 .image{
+    display: flex;
   flex-wrap: wrap;
     display: flex;
-    position: relative ;
+    position: relative;
+ 
   
    
 }
 
 .image img{
-    
+    flex-wrap: wrap;
     height: 97%;
+    width: 100%;
 
    
 }
@@ -129,6 +132,7 @@ padding: 70px;
     font-size: 26px;
     font-weight: bolder gray;
     color: gray;
+    opacity: 0;
 }
 
 
@@ -264,8 +268,35 @@ padding: 70px;
 }
 
 
-/* pseudoclases */
 
 
-/* jquery */
-/* cambio header mbl*/
+
+/* mediaquery */
+/* celementos transparentes que aparecen*/
+
+@media (max-width: 600px) {
+    .circle_hit_transparent{
+      
+        opacity: 100%;
+    }
+   
+    }
+    
+    @media (max-width: 860px) {
+        .header_nav{
+            opacity: 0;
+            
+        }
+        .header-icon_transparent {
+      
+            opacity: 100%;
+        }
+        
+        .header{  
+            
+            margin: 0px;
+        }
+       
+        
+     
+    }
