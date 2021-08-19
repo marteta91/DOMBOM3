@@ -1,5 +1,5 @@
 
- 
+ /*
 function playsound1(){
   let boton_sound =document.getElementById("sonido_bombo");
   
@@ -45,16 +45,22 @@ function playsound8(){
     boton_sound.play();
   }
 
-/*
 
-//onclick = "playsound(event)"
-function playsound(val) {
-    let audio = document.querySelectorAll(`button[data-boton="${val.dataset.boton}"]`);
-    audio.play();
-    
-  }
 
+let audio= document.getElementsByClassName("tono");
+  console.log(audio);
+
+  audio.play();
 */
 
-    
+
+
+document.addEventListener("click", function(event) {
+  let boton = event.target.dataset.boton;
+  console.log(boton, event);
+
+  let toPLay = document.getElementById(boton);
+  console.log(toPLay);
+  toPLay.play();
   
+})
