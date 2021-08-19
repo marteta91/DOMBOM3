@@ -67,12 +67,11 @@ header{
     margin-left: 40px;
     color: cornsilk;
     align-items: center;
+    font-weight: bolder;
 }
 
 .header-green{
     color: rgb(11, 139, 69) !important;
-    border-right: solid 1px white;
-    padding: 20px; 
 }
 
 /*body*/
@@ -82,17 +81,20 @@ header{
 }
 
 .column{
-    
-    flex-direction: column;
+   margin-left: 10%;
+   margin-top: 40px;
     text-align: center;
 }
 
 .caixa1{
 
     color:#F9F8FB; 
-    font-family:'Times New Roman', Times, serif;
-    
+    text-shadow: -1px -1px 0px rgb(207 207 207);
 }
+
+
+    
+
  .caixa2{
 
     font-size:xx-small;
@@ -115,14 +117,12 @@ header{
 
 .image img{
     flex-wrap: wrap;
-    height: 97%;
+    height: 90%;
     width: 100%;
 
    
 }
-.circle_hit{
-padding: 70px;
-}
+
 
 .circle_hit_transparent{
     border-radius: 100%;
@@ -219,26 +219,24 @@ padding: 70px;
     top: 18%;
     left: 51.2%;
  }   
-
+ 
  [class*="button_"]:active {
    background-color: black;
     opacity: 30%;
   } 
 
-
+  
 
 
 /*footer*/
    
 .footer{
-    width: 100%;
-    padding:27px;
     color: white; 
-    text-align: center;
-    
+    text-align: center;font-size: medium;
+    font-size: 13px;
 } 
 
-.boton_verde{
+.btn_verde{
   
     font-size: 20px;
     background-color: rgb(40, 153, 59);
@@ -251,7 +249,7 @@ padding: 70px;
 
 
 }
-.boton_blanco{
+.btn_blanco{
     
     font-size: 20px;
     background-color: rgb(216, 216, 216);
@@ -270,7 +268,10 @@ padding: 70px;
 
 }
 
-
+[class*="btn_"]:hover{
+    background-color: rgb(196, 209, 16);
+     opacity: 30%;
+   } 
 
 
 
