@@ -220,10 +220,13 @@ padding: 70px;
     left: 51.6%;
  }   
 
- button:hover{
-     opacity: 30%;
-     transition: 0.5s;
- }
+ [class*="button_"]:active {
+   background-color: black;
+    opacity: 30%;
+  } 
+
+
+
 
 /*footer*/
    

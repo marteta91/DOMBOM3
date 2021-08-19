@@ -57,10 +57,21 @@ let audio= document.getElementsByClassName("tono");
 
 document.addEventListener("click", function(event) {
   let boton = event.target.dataset.boton;
-  console.log(boton, event);
+  
 
-  let toPLay = document.getElementById(boton);
-  console.log(toPLay);
-  toPLay.play();
+  if(boton == undefined){
+    console.log("Sigue probando a darle al boton");
+
+  }else{
+    
+    console.log("bien hecho");
+    
+    console.log(boton);
+  
+    let toPLay = document.getElementById(boton);
+    console.log(toPLay);
+  
+    toPLay.play();
+  }
   
 })
