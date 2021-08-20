@@ -45,28 +45,24 @@ function playsound8(){
     boton_sound.play();
   }
 
-
-
-let audio= document.getElementsByClassName("tono");
-  console.log(audio);
-
-  audio.play();
 */
 
 
 
 document.addEventListener("click", function(event) {
   let boton = event.target.dataset.boton;
+
   console.log(boton + " (paso por IF y te cuento) ")
 
   if(boton == undefined){
     alert("Sigue probandon, no le has dado donde toca");
 
   }else{
-    
     let toPLay = document.getElementById(boton);
     console.log("bien hecho, está sonando: "+ boton);
+    //toPlay.currentTime=0;
     toPLay.play();
+  
   }
   
 })
