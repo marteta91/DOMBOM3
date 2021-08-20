@@ -264,17 +264,14 @@ font-family: 'IBM Plex Sans', sans-serif;
 
 }
 
-    [class*="btn_"]:hover{
-    background-color: rgb(209, 16, 16);
-     opacity: 30%;
-   } 
 
 
 
    [class*="button_"]:active {
-    background-color: rgb(14, 110, 2);
+    background-image: radial-gradient(rgb(233, 238, 187),rgb(4, 88, 4), black );
      transition: -2s;
-     box-shadow: 1px 8px 20px rgb(220, 243, 10);;
+     box-shadow: 8px 8px 25px rgb(234, 238, 199);
+     opacity: 100%;
   
    } 
 
