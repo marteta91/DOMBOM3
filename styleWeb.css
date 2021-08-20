@@ -267,7 +267,7 @@ font-family: 'IBM Plex Sans', sans-serif;
 
    [class*="button_"]:active {
     background-color: rgb(14, 110, 2);
-    
+    box-shadow: white;
      transition: -2s;
    } 
 
@@ -285,10 +285,17 @@ font-family: 'IBM Plex Sans', sans-serif;
 /* elementos transparentes que aparecen*/
 
 @media (max-width: 600px) {
-    .circle_hit_transparent{
-       margin-top: 37px;;
-        opacity: 100%;
+    .circle_hit{
+        width: 80%;
     }
+    .circle_hit_transparent{
+       margin-top: 132px;;
+        opacity: 100%;
+        width: 127%;
+        height: 184px;
+        margin-top: 115px;
+        box-shadow: -2px 4px 24px black;
+        border: none;
    
     }
     
@@ -328,5 +335,16 @@ font-family: 'IBM Plex Sans', sans-serif;
         .caixa2{
             display: none;
         }
-     
+        .btn_verde{
+        width: 138px;
+        height: 41px;
+        margin-top: 20px;
+        border: 0px;
+        margin-left: -99px;
+     }
+     .footer{
+        padding: 36px;
+        margin-top: 69px;
+        margin-bottom: 17%
+     }
     }
