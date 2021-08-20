@@ -133,28 +133,29 @@ font-family: 'IBM Plex Sans', sans-serif;
 
 
 .button_bombo{
-    height: 22%;
-    width: 14%;
-    border-radius: 100%;
-    background-color: rgb(4, 8, 3);
-    opacity: 80%;
-    position: absolute;
-    top: 8.5%;
-    left: 2.3%; 
-}
-.button_crash{
-    height: 21%;
+    height: 19%;
     width: 15%;
     border-radius: 100%;
     background-color: rgb(4, 8, 3);
     opacity: 80%;
     position: absolute;
-    top: 9.5%;
+    top: 10.5%;
+    left: 2.3%; 
+}
+.button_crash{
+    height: 20%;
+    width: 15%;
+    width: 15%;
+    border-radius: 100%;
+    background-color: rgb(4, 8, 3);
+    opacity: 80%;
+    position: absolute;
+    top: 10.5%;
     left: 82.3%;
 }
 .button_hit-hat{
-    height: 21%;
-    width: 16%;
+    height: 19%;
+    width: 15%;
     border-radius: 100%;
     background-color: rgb(4, 8, 3);
     opacity: 80%;
@@ -163,60 +164,63 @@ font-family: 'IBM Plex Sans', sans-serif;
     left: 74.3%;
 }
 .button_redoblante{
-    height: 23%;
-    width: 16%;
+    height: 19%;
+    width: 15%;
     border-radius: 100%;
     background-color: rgb(4, 8, 3);
     position: absolute;
-    top: 30%;
-    left: 9.3%;
+    top: 31%;
+    left: 9.9%;
 } 
 
 .button_tom1{
     
-    height: 30%;
+    height: 27%;
     width: 21%;
     border-radius: 100%;
     background-color: rgb(4, 8, 3);
     opacity: 80%;
     position: absolute;
-    top: 51.5%;
+    top: 52.5%;
     left: 15.3%;
 }
 .button_tom2{
-    height: 30%;
+    height: 27%;
     width: 21%;
     border-radius: 100%;
     background-color: rgb(4, 8, 3);
     opacity: 80%;
     position: absolute;
-    top: 51.5%;
+    top: 52.5%;
     left: 63.6%;
     
 }
 .button_tom3{
-    height: 30%;
+    height: 26%;
     width: 21%;
     border-radius: 100%;
     background-color: rgb(4, 8, 3);
     opacity: 80%;
     position: absolute;
-    top: 18.5%;
+    top: 19.5%;
     left: 27.4%;
 }
  .button_tom4{
-    height: 30%;
+    height: 26%;
     width: 21%;
     border-radius: 100%;
     background-color: rgb(4, 8, 3);
     opacity: 80%;
     position: absolute;
-    top: 18%;
+    top: 19.5%;
     left: 51.2%;
  }   
 
 
- 
+ .footer{
+  
+    margin-bottom: 47%
+ }
  
 
 
@@ -261,25 +265,20 @@ font-family: 'IBM Plex Sans', sans-serif;
 }
 
     [class*="btn_"]:hover{
-    background-color: rgb(196, 209, 16);
+    background-color: rgb(209, 16, 16);
      opacity: 30%;
    } 
 
+
+
    [class*="button_"]:active {
     background-color: rgb(14, 110, 2);
-    box-shadow: white;
      transition: -2s;
+     box-shadow: 1px 8px 20px rgb(220, 243, 10);;
+  
    } 
 
 
-/* cambiar color con js
-
-.coloresJS :active{
-    background-color: tomato !important;
-}
-
-   
- */
 
 
 /* elementos transparentes que aparecen*/
@@ -341,10 +340,67 @@ font-family: 'IBM Plex Sans', sans-serif;
         margin-top: 20px;
         border: 0px;
         margin-left: -99px;
-     }
-     .footer{
-        padding: 36px;
-        margin-top: 69px;
-        margin-bottom: 17%
-     }
+        }
+        .footer{
+            padding: 36px;
+            margin-top: 69px;
+            margin-bottom: 17%
+        }
+        .button_bombo{
+            height: 18%;
+            width: 15%;
+            top: 13.5%;
+            left: 2.3%; 
+        }
+        .button_crash{
+            height: 18%;
+            width: 15%;
+            top: 13.5%;
+            left: 82.3%;
+        }
+        .button_hit-hat{
+            height: 21%;
+            width: 16%;
+            top: 31.3%;
+            left: 74.3%;
+        }
+        .button_redoblante{
+            height: 23%;
+            width: 16%;
+            top: 30%;
+            left: 9.3%;
+        } 
+        
+        .button_tom1{ 
+            height: 26%;
+            width: 21%;
+            top: 51.5%;
+            left: 15.3%;
+        }
+        .button_tom2{
+            height: 26%;
+            width: 21%;
+            top: 51.5%;
+            left: 63.6%;
+            
+        }
+        .button_tom3{
+            height: 26%;
+            width: 21%;
+            top: 21.5%;
+            left: 27.4%;
+        }
+        .button_tom4{
+            height: 26%;
+            width: 21%;
+        }
+        
+        .button_bombo{
+                height: 18%;
+                width: 15%;
+                top: 13.5%;
+                left: 2.3%; 
+            }
+        
     }
+    

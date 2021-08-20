@@ -54,15 +54,16 @@ document.addEventListener("click", function(event) {
 
   console.log(boton + " (paso por IF y te cuento) ")
 
-  if(boton == undefined){
-    alert("Sigue probandon, no le has dado donde toca");
-
-  }else{
-    let toPLay = document.getElementById(boton);
+  if(boton ){
+    let toPlay = document.getElementById(boton);
     console.log("bien hecho, está sonando: "+ boton);
-    //toPlay.currentTime=0;
-    toPLay.play();
-  
+    //console.log(toPLay);
+    toPlay.play();
+    toPlay.currentTime = 0;
+  }
+    
+  if(boton===undefined ){
+    console.log("Sigue probandon, no le has dado donde toca");
   }
   
 })
